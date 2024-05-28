@@ -19,3 +19,5 @@ ngrok authtoken <your_auth_token>
 # Start ngrok
 ngrok http 8080
 
+then configure payload url in github webhook section.
+
