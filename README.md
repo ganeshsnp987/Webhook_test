@@ -13,7 +13,7 @@ sudo mv ngrok /usr/local/bin/
 # Verify installation
 ngrok --version
 
-# (Optional) Connect your ngrok account
+# (Optional) Connect your ngrok account. You will get auth token here: https://dashboard.ngrok.com/get-started/your-authtoken
 ngrok authtoken <your_auth_token>
 
 # Start ngrok
