@@ -15,8 +15,9 @@ ngrok --version
 
 # (Optional) Connect your ngrok account. You will get auth token here: 
 https://dashboard.ngrok.com/get-started/your-authtoken
+```
 ngrok authtoken <your_auth_token>
-
+````
 # Start ngrok
 ngrok http 8080
 
