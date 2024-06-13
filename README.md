@@ -28,3 +28,13 @@ ngrok http 8080
 then configure payload url in github webhook section
 (https://9e09-103-139-242-126.ngrok-free.app/github-webhook/)
 
+# Find the Process ID (PID):
+```
+ps aux | grep ngrok
+```
+# Kill the Process:
+```
+kill -9 PID
+```
+Replace PID with the actual process ID of the ngrok process.
+
